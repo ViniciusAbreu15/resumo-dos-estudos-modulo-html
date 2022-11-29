@@ -1,0 +1,36 @@
+<!--furms
+        capturar dados de entrada
+    input ->Entrada
+
+    Action ->define para qual url sera enviado os dados, vazio envia para mesma url
+    method
+    GET
+    POST
+    usar enctype no formulario para usar como envio de arquivos
+-->
+<form action="" method="get" enctype="multipart/form-data">
+<h1>Digite seu endereço</h1>
+    <label>
+        Rua:
+    <input type="text" name="rua"/>
+    </label>    
+
+    <label>
+        numero:
+        <input type="number" name="numero" />
+    </label>
+
+<label>
+    Email:
+    <input type="email" name="email"/>
+</label>
+
+
+<label>
+    foto:
+    <input type="file" name="arquivo"/>
+</label>
+
+<button type="reset"></button>
+<button type="submit">clique aqui</button>
+</form>
